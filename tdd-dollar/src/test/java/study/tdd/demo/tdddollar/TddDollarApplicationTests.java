@@ -25,6 +25,9 @@ class TddDollarApplicationTests {
 		// 삼각 측량 예제 - 상수를 통한 테스트 통과를 막기 위함
 		assertTrue(new Dollar(5).equals(new Dollar(5)));
 		assertFalse(new Dollar(5).equals(new Dollar(6)));
+
+		assertTrue(new Franc(5).equals(new Franc(5)));
+		assertFalse(new Franc(5).equals(new Franc(6)));
 	}
 
 	@Test
