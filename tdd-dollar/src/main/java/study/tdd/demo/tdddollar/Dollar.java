@@ -3,8 +3,7 @@ package study.tdd.demo.tdddollar;
 import java.util.Objects;
 
 public class Dollar {
-	int amount;
-
+	private int amount;
 
 	public Dollar times(int multiplier) {
 		return new Dollar(this.amount * multiplier);
